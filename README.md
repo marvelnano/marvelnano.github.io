@@ -1,2 +1,2 @@
 # Soluciones  JV
-esta web  sera el inicio de mis proyectos personales.
+esta web  sera el inicio de mis proyectos personales
