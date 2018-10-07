@@ -1,0 +1,56 @@
+/* html,body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: #F0F2F4;
+} */
+.navbar.is-info {/*menu de arriba con combo*/
+  background: #2E9AFE;
+}
+/* .navbar-brand .brand-text {
+  font-size: 1.11rem;
+  font-weight: bold;
+} */
+.hero-body  {/*cabecera de arriba donde va Soluciones JV o una imagen*/
+/* background: #2E9AFE; */
+background-image: url("../images/barra.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 150px;
+}
+.hero.is-info {/*menu donde estan los tabs*/
+  background: #2E9AFE;
+}
+.tabs {
+margin-bottom: -1px !important;
+position: relative;
+}
+.tab-content {
+padding: 60px;
+top: 197px;
+color: #000;
+background-color: white;
+}
+.tab-pane {
+display: none;
+}
+.tab-pane.is-active {
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+.is-active {
+display: initial;
+}
+
+.cent{
+display: block;
+margin: 10px auto;
+padding: 5px;
+border: 1px solid #ccc}
+
+.video
+{display: block;
+margin: 0 auto;}
