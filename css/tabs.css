@@ -45,27 +45,6 @@ position: relative;
 left: 50%;
 transform: translateX(-50%);
 }
-.tab-pane .presentacion{
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 0 30px;
-}
-.tab-pane .presentacion .post{
-  float: left;
-  width: 55%;
-  color: #222;
-}
-aside[role=complementary] {
-  display: table-cell;
-  padding: 10px 20px;
-}
-.presentacion h2 {
-  color: #363636;
-  font-weight: 600;
-  line-height: 1.125;
-  font-size: 1.75em;
-  margin-bottom: 0.5714em;
-}
 
 .is-active {
 display: initial;
