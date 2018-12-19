@@ -25,40 +25,21 @@
                 </div>
             </div>
             <div id="navbarExampleTransparentExample" class="navbar-menu">
-                <div class="navbar-start is-link">
-                    <a class="navbar-item" href="#">
-                        Home
+                <div class="navbar-start is-link" id="nav">					
+                    <a class="navbar-item" href="#" >
+						Inicio
                     </a>
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link" href="/documentation/overview/start/">
-                            Docs
-                        </a>
-                        <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item" href="#">
-                                Admin
-                            </a>
-                            <a class="navbar-item" href="#">
-                                Forum
-                            </a>
-                            <a class="navbar-item" href="#">
-                                Cover
-                            </a>
-                            <a class="navbar-item" href="#">
-                                Cards
-                            </a>
-                            <a class="navbar-item" href="#">
-                                Blog
-                            </a>
-                            <hr class="navbar-divider">
-                            <a class="navbar-item" href="#">
-                                Search
-                            </a>
-                            <a class="navbar-item is-active" href="#">
-                                Kanban
-                            </a>
-                        </div>
-                    </div>
+					<a class="navbar-item" href="#" >
+						Nosotros
+                    </a>
+					<a class="navbar-item" href="#" >
+						Servicios
+                    </a>
+					<a class="navbar-item" href="#" >
+						Contáctanos
+                    </a>                    
                 </div>
+            </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="field is-grouped">
@@ -114,7 +95,7 @@
                     <li data-target="pane-1" id="1" class="is-active"> <!-- la clase is-active muestra la pestaña activa-->
                         <a>
                             <span class="icon is-small"><i class="fa fa-image"></i></span>
-                            <span>Ininio</span>
+                            <span>Inicio</span>
                         </a>
                     </li>
                     <li data-target="pane-2" id="2">
@@ -140,7 +121,8 @@
             <div class="tab-content">
                 <div class="tab-pane is-active" id="pane-1" class="level"> <!-- la clase is-active muestra la pestaña activa-->
 					<div class="content">							
-						<div class="columns">
+						<div class="columns is-centered">
+						<!-- columna 01 -->
 						  <div class="column is-narrow">
 							<!-- <figure> -->
 								<!-- <img src="images/proyectos_web.png" alt="Lo que hacemos"> -->
@@ -150,7 +132,8 @@
 								</figcaption> -->
 							<!-- </figure> -->
 						  </div>
-						  <div class="column">
+						  <!-- columna 02 -->
+						  <div class="column is-half">
 							<h2 align="center">Bienvenido a Soluciones JV</h2>
 							<p align="justify">Nuestro interés es crecer junto con nuestros clientes, que cada proyecto nos ayude a ambas partes a prosperar, acompañando al auge y la difusión de Internet, tener presencia en la Web se ha convertido en una herramienta de gran importancia dentro del plan global de una empresa. Conocemos las buenas practicas de desarrollo web, tecnologías, metodologías, creatividad, estrategias de comunicación, estándares, etc.</p>
 							<p align="justify">La empresa está enfocada en el área de servicios informáticos, la creación de páginas Web tanto empresariales como personales y sistemas de gestión. Nuestro objetivo es concretar servicios personalizados a empresas que necesiten obtener un mejor flujo de su información a través de un eficiente sistema informático.</p>
@@ -162,22 +145,26 @@
 					<div class="content">                        
 						<hr>		
 						<h2 align="center">Servicios Brindados</h2>
-						<div class="columns">
+						<div class="columns is-centered">
+						  <!-- columna 01 -->
 						  <div class="column">
 							<img src="images/desarrollo_web.png" alt="Desarrollo web">
 							<h3 align="center">Desarrollo de Sitios Web</h3>
 							<p align="justify">De acuerdo con la W3C los sitios web bien desarrollados (es decir apegados a estándares) podrán ser vistos desde cualquier plataforma ésto además favorece al posicionamiento de tu sitio. El código de programación sofisticado y funcional que ofrecemos es lo que hace que cada experiencia dentro nuestros sitios web marque la diferencia en el mercado.<a href="servicios.html" class="more-link">Leer más &rarr;</a></p>				
 						  </div>
+						  <!-- columna 02 -->
 						  <div class="column">
 							<img src="images/desarrollo_cms.png" alt="Desarrollo CMS">
 							<h3 align="center">CMS Administrador de Contenidos</h3>
 							<p align="justify">Generamos un sistema de Gestión de Contenidos CMS o un administrador de contenidos fácil de usar diseñado para permitir a personas sin experiencia en programación poder controlar y editar el contenido de su sitio web,	 incluyendo: texto, imágenes, videos y muchas cosas mas. Un CMS es un componente esencial para mantener su negocio en línea con eficiencia y eficacia. <a href="servicios.html" class="more-link">Leer más &rarr;</a></p>
 						  </div>
+						  <!-- columna 03 -->
 						  <div class="column">
 							<img src="images/sistemas_informaticos.png" alt="Sistemas Informáticos">
 							<h3 align="center">SISTEMAS INFORMÁTICOS</h3>
 							<p align="justify">Un sistema informático utiliza ordenadores para almacenar datos, procesarlos y ponerlos a disposición de quien se considere oportuno. El hecho de contar con una página Web propia permite que la publicidad de la empresa llegue de manera masiva, siendo más económica que en otros medios. <a href="servicios.html" class="more-link">Leer más &rarr;</a></p>
 						  </div>
+						  <!-- columna 04 -->
 						  <div class="column">
 							<img src="images/sistemas_electricos.jpg" alt="Sistemas Eléctricos">
 							<h3 align="center">SISTEMAS ELÉCTRICOS</h3>
@@ -188,21 +175,27 @@
                 </div>
 				<div class="tab-pane" id="pane-2">
                     <div class="content">
-                        <h1>¿Cómo Trabajamos?</h1>
-                        <p>Aplicamos el proceso perfecto para lograr el éxito de tu proyecto: Planificación, Diseño, Desarrollo y Publicación. Para ello contamos con especialistas en cada etapa del desarrollo de una página web. Nos gusta lo que hacemos y cada proyecto es un reto nuevo.</p>
-						<hr>
-                        <h2>Nos gusta lo que hacemos y cada proyecto es un reto nuevo.</h2>
-						<h2 align="center">Nuestra Misión</h2>
-                        <p>“Somos una empresa eficaz y confiable de facil acceso para un mejor desarrollo publicitario de nuestros clientes. Nuestra juventud y creatividad son nuestros mejores aliados a la hora de proporcionar nuestro servicio, lo que nos brinda una originalidad notable.”</p>
-						<h2 align="center">Nuestra Visión</h2>
-                        <p>“Ser una empresa seria, competente con los demás en la rama y que brinde un servicio reconocido por sus clientes, siendo contratado por su eficacia y dedicación, teniendo importancia para sus clientes, a tal punto de ser recomendada a otras empresas.” </p>
-						<figure>
-								<img src="images/aplicaciones_web.jpg" alt="Lo que hacemos">
-								<!-- <figcaption>
-								Figure 1: Some beautiful placeholders
-								</figcaption> -->
-						</figure>
-							
+						<div class="columns is-centered">
+							<!-- Nosotros -->
+							<div class="column is-half">
+								<h1>¿Cómo Trabajamos?</h1>
+								<p>Aplicamos el proceso perfecto para lograr el éxito de tu proyecto: Planificación, Diseño, Desarrollo y Publicación. Para ello contamos con especialistas en cada etapa del desarrollo de una página web. Nos gusta lo que hacemos y cada proyecto es un reto nuevo.</p>
+								<hr>
+								<h2>Nos gusta lo que hacemos y cada proyecto es un reto nuevo.</h2>
+								<h2 align="center">Nuestra Misión</h2>
+								<p>“Somos una empresa eficaz y confiable de facil acceso para un mejor desarrollo publicitario de nuestros clientes. Nuestra juventud y creatividad son nuestros mejores aliados a la hora de proporcionar nuestro servicio, lo que nos brinda una originalidad notable.”</p>
+								<h2 align="center">Nuestra Visión</h2>
+								<p>“Ser una empresa seria, competente con los demás en la rama y que brinde un servicio reconocido por sus clientes, siendo contratado por su eficacia y dedicación, teniendo importancia para sus clientes, a tal punto de ser recomendada a otras empresas.” </p>
+								<figure>
+										<img src="images/aplicaciones_web.jpg" alt="Lo que hacemos">
+										<!-- <figcaption>
+										Figure 1: Some beautiful placeholders
+										</figcaption> -->
+								</figure>
+							</div>
+						</div>
+						<!-- termina la pestaña Nosotros -->
+						
                         <ul>
                             <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
                             <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
@@ -245,88 +238,62 @@
                     <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
                 </div>
             </div>        
-                <div class="tab-pane" id="pane-3">
-                    <div class="columns">
-                        <div class="container ">
-                            <div class="columns">
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-github-square fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-												<center><strong>Desarrollo de Sitios Web</strong></center>
-                                                <p align="justify">                                                    
-                                                    <br> De acuerdo con la W3C los sitios web bien desarrollados (es decir apegados a estándares) podrán ser vistos desde cualquier plataforma, ésto además favorece al posicionamiento de tu sitio. Las tecnologías digitales son esenciales para crear un sitio web exitoso. Detrás de la pantalla se encuentra una gran cantidad de códigos técnicos integrados para ofrecer un diseño diferenciado y creativo en pantalla El código de programación sofisticado y funcional que ofrecemos es lo que hace que cada experiencia dentro nuestros sitios web marque la diferencia en el mercado. En <strong>SOLUCIONES JV</strong> incorporamos las últimas tecnologías y elementos a su sitio web para hacerlo versátil y flexible.</p>
-												<p align="justify">
-													Más que una simple página web.
-													En <strong>SOLUCIONES JV</strong> desarrollamos un conjunto de estrategias para lograr con eficacia sus objetivos de negocio en línea. La etapa de planificación y estrategia consiste en conocer a su público objetivo y los objetivos deseados de comercialización. Optimizamos el motor de búsqueda en Internet mediante el ¨sistema de palabras clave¨ que identifica palabras eficaces, en el idioma apropiado y con el tono de su mercado objetivo logrando mejor posicionamiento en buscadores como Google.
-												</p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-empire fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-												<center><strong>SISTEMAS ELECTRICOS</strong></center>
-                                                <p align="justify">                                                    
-                                                    <br> Ofrecemos un servicio unico eficaz y eficiente porque nos identificamos con tus necesidades, entendemos tus problemas y lo resolvemos
-													al instante. Somos conscientes de la importancia de unas buenas instalaciones electricas tanto en las viviendas para lograr el bienestar del hogar,
-													como en las industrias para un buen funcionamiento de la actividad industrial. Asimismo, insistimos que una buena iluminación estudiada al detalle 
-													realza la construcción y ayuda a lograr el ambiente que se desee en cada ocasión y buen mantenimiento a tus motores, equipos e instalaciones electricas,
-													puede alargar el uso o la vida util de los mismos. Es por aquello que brindamos nuestros servicios de instalaciones Reparaciones y mantenimientos 
-													Electricos en diferentes areas y campos de la electricidad. En <strong>SOLUCIONES JV, donde los demas ven problemas, Nosotros vemos soluciones.</strong>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-ravelry fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-												<center><strong>Administrador de Contenidos CMS</strong></center>
-                                                <p align="justify">                                                    
-                                                    <br> Generamos un sistema de Gestión de Contenidos CMS o un administrador de contenidos fácil de usar diseñado para permitir a personas sin experiencia en programación poder controlar y editar el contenido de su sitio web,	 incluyendo: texto, imágenes, videos y muchas cosas mas. Un CMS es un componente esencial para mantener su negocio en línea con eficiencia y eficacia. <strong>SOLUCIONES JV</strong> proporciona las herramientas para que usted controle su sitio web, mediante la actualización de nuevos contenidos y contribuyendo a su propia conveniencia, con un sistema fácil de usar, que le ahorre tiempo en su negocio.</p>
-												<p align="justify">
-													Nos concentramos en la importancia del diseño y en alinear sus objetivos con ideas creativas, para lograr un sitio web visualmente atractivo y fácil de navegar.
-													En <strong>SOLUCIONES JV</strong> determinamos el éxito de su web cuando un espectador se convierte en un cliente a través de una excelente experiencia de navegación capaz de generar comentarios positi- vos de  ̈boca a boca ̈ entre amigos y asociados.<br><br><br><br>
-												</p>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-github-alt fa-4x"></i>
-											<!-- <img src="images/sistemas.jpg" alt="SISTEMAS INFORMÁTICOS"> -->
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-												<center><strong>SISTEMAS INFORMÁTICOS</strong></center>
-                                                <p align="justify">                                                    
-													<br> Identificamos tus necesidades, entendemos tus objetivos de comunicación y aprendemos acerca de tu negocio.
-													Este es el primer paso para un sitio web exitoso. En <strong>SOLUCIONES JV</strong> somos conscientes de que cada cliente es diferente, por eso atendemos sus requerimientos, entendemos su negocio y aprendemos acerca de usted con el fin de diseñar un sistema que se ajuste a sus necesidades. Además, su participación y compromiso con el proceso de desarrollo del sistema es fundamental para asegurar un trabajo en equipo y un resultado deseado a lo largo de todo el proceso.
-												</p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="tab-pane" id="pane-3">				
+					<div class="content">
+						<div class="columns is-centered">
+						<!-- columna 01 -->
+							<div class="column is-half">
+								<article>
+									<center> <img src="images/desarrollo_web.png" alt="Desarrollo web"> </center>
+									<center> <strong>Desarrollo de Sitios Web</strong> </center>
+									<p align="justify">                                                    
+										<br> De acuerdo con la W3C los sitios web bien desarrollados (es decir apegados a estándares) podrán ser vistos desde cualquier plataforma, ésto además favorece al posicionamiento de tu sitio. Las tecnologías digitales son esenciales para crear un sitio web exitoso. Detrás de la pantalla se encuentra una gran cantidad de códigos técnicos integrados para ofrecer un diseño diferenciado y creativo en pantalla El código de programación sofisticado y funcional que ofrecemos es lo que hace que cada experiencia dentro nuestros sitios web marque la diferencia en el mercado. En <strong>SOLUCIONES JV</strong> incorporamos las últimas tecnologías y elementos a su sitio web para hacerlo versátil y flexible.</p>
+									<p align="justify">
+										Más que una simple página web.
+										En <strong>SOLUCIONES JV</strong> desarrollamos un conjunto de estrategias para lograr con eficacia sus objetivos de negocio en línea. La etapa de planificación y estrategia consiste en conocer a su público objetivo y los objetivos deseados de comercialización. Optimizamos el motor de búsqueda en Internet mediante el ¨sistema de palabras clave¨ que identifica palabras eficaces, en el idioma apropiado y con el tono de su mercado objetivo logrando mejor posicionamiento en buscadores como Google.
+									</p>
+								</article><hr>
+								<article>
+									<center> <img src="images/desarrollo_cms.png" alt="Desarrollo CMS"> </center>
+									<center> <strong>SISTEMAS ELECTRICOS</strong> </center>
+									<p align="justify">                                                    
+										<br> Ofrecemos un servicio unico eficaz y eficiente porque nos identificamos con tus necesidades, entendemos tus problemas y lo resolvemos
+										al instante. Somos conscientes de la importancia de unas buenas instalaciones electricas tanto en las viviendas para lograr el bienestar del hogar,
+										como en las industrias para un buen funcionamiento de la actividad industrial. Asimismo, insistimos que una buena iluminación estudiada al detalle 
+										realza la construcción y ayuda a lograr el ambiente que se desee en cada ocasión y buen mantenimiento a tus motores, equipos e instalaciones electricas,
+										puede alargar el uso o la vida util de los mismos. Es por aquello que brindamos nuestros servicios de instalaciones Reparaciones y mantenimientos 
+										Electricos en diferentes areas y campos de la electricidad. En <strong>SOLUCIONES JV, donde los demas ven problemas, Nosotros vemos soluciones.</strong>
+									</p>
+								</article><hr>
+							</div>
+							<!-- columna 02 -->
+							<div class="column is-half">
+								<article>
+									<center> <img src="images/sistemas_informaticos.png" alt="Sistemas Informáticos"> </center>
+									<center> <strong>Administrador de Contenidos CMS</strong> </center>
+									<p align="justify">                                                    
+										<br> Generamos un sistema de Gestión de Contenidos CMS o un administrador de contenidos fácil de usar diseñado para permitir a personas sin experiencia en programación poder controlar y editar el contenido de su sitio web,	 incluyendo: texto, imágenes, videos y muchas cosas mas. Un CMS es un componente esencial para mantener su negocio en línea con eficiencia y eficacia. <strong>SOLUCIONES JV</strong> proporciona las herramientas para que usted controle su sitio web, mediante la actualización de nuevos contenidos y contribuyendo a su propia conveniencia, con un sistema fácil de usar, que le ahorre tiempo en su negocio.</p>
+									<p align="justify">
+										Nos concentramos en la importancia del diseño y en alinear sus objetivos con ideas creativas, para lograr un sitio web visualmente atractivo y fácil de navegar.
+										En <strong>SOLUCIONES JV</strong> determinamos el éxito de su web cuando un espectador se convierte en un cliente a través de una excelente experiencia de navegación capaz de generar comentarios positi- vos de  ̈boca a boca ̈ entre amigos y asociados.<br><br><br><br> </p>
+								</article><hr>
+								<article>
+									<center> <img src="images/sistemas_electricos.jpg" alt="Sistemas Eléctricos"> </center>
+									<center> <strong>SISTEMAS INFORMÁTICOS</strong> </center>
+									<p align="justify">                                                    
+										<br> Identificamos tus necesidades, entendemos tus objetivos de comunicación y aprendemos acerca de tu negocio.
+										Este es el primer paso para un sitio web exitoso. En <strong>SOLUCIONES JV</strong> somos conscientes de que cada cliente es diferente, por eso atendemos sus requerimientos, entendemos su negocio y aprendemos acerca de usted con el fin de diseñar un sistema que se ajuste a sus necesidades. Además, su participación y compromiso con el proceso de desarrollo del sistema es fundamental para asegurar un trabajo en equipo y un resultado deseado a lo largo de todo el proceso.
+									</p>
+								</article>
+							</div>
+						</div> 
+					</div>
                 </div>
                 <div class="tab-pane" id="pane-4">
                     <div class="content">							
-						<div class="columns">
-						  <div class="column">
+						<div class="columns is-centered">
+						  <!-- información de contacto -->
+						  <div class="column is-one-quarter">
 							<h2>Ubícanos también en</h2>
 							<i class="fa fa-mobile"> Celular: 943414200</i> <br />
 							<i class="fa fa-envelope"> <a href="mailto:contacto@solucionesjv.com">contacto@solucionesjv.com</a></i><br />
@@ -334,114 +301,124 @@
 							<p>&nbsp;</p>
 							<p align="justify">Si tiene cualquier duda o comentario acerca de nuestros servicios, no dude en comunicarse con nosotros. A la brevedad uno de nuestros representantes se estará comunicando con usted. Gracias.</p>
 						  </div>
-						  <div class="column is-narrow">						  
+						  <!-- fin de información de contacto -->
+						  
+						  <!-- ubicacion de empresa -->
+						  <div class="column is-narrow is-one-quarter">				  
 							<div class="g-map">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31514.200448072144!2d-78.51926655587944!3d-9.129610612287056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1391840384078" width="580" height="300" frameborder="0" style="border:0"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31514.200448072144!2d-78.51926655587944!3d-9.129610612287056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1391840384078" width="270" height="270" frameborder="0" style="border:0"></iframe>
 							</div>
 						  </div>
+						  <!-- fin de mapa -->
+						  </div>
+						  
+						  <div class="columns is-centered">
+						  <!-- formulario de contacto -->
+						    <div class="column is-half">
+								<div class="field">
+								  <label class="label">Nombre</label>
+								  <div class="control">
+									<input class="input" type="text" placeholder="Ingrese Nomre">
+								  </div>
+								</div>
+
+								<div class="field">
+								  <label class="label">Asunto</label>
+								  <div class="control has-icons-left has-icons-right">
+									<input class="input is-success" type="text" placeholder="Ingrese Asunto" value="asunto">
+									<span class="icon is-small is-left">
+									  <i class="fas fa-user"></i>
+									</span>
+									<span class="icon is-small is-right">
+									  <i class="fas fa-check"></i>
+									</span>
+								  </div>
+								  <p class="help is-success">Este usuario esta Disponible</p>
+								</div>
+
+								<div class="field">
+								  <label class="label">Email</label>
+								  <div class="control has-icons-left has-icons-right">
+									<input class="input is-danger" type="email" placeholder="Ingrese correo" value="hello@">
+									<span class="icon is-small is-left">
+									  <i class="fas fa-envelope"></i>
+									</span>
+									<span class="icon is-small is-right">
+									  <i class="fas fa-exclamation-triangle"></i>
+									</span>
+								  </div>
+								  <p class="help is-danger">Este correo es invalido</p>
+								</div>
+
+								<div class="field">
+								  <label class="label">Subject</label>
+								  <div class="control">
+									<div class="select">
+									  <select>
+										<option>Select dropdown</option>
+										<option>With options</option>
+									  </select>
+									</div>
+								  </div>
+								</div>
+
+								<div class="field">
+								  <label class="label">Mensaje</label>
+								  <div class="control">
+									<textarea class="textarea" placeholder="Ingrese Mensaje"></textarea>
+								  </div>
+								</div>
+
+								<div class="field">
+								  <div class="control">
+									<label class="checkbox">
+									  <input type="checkbox">
+									  Acepto los <a href="#">términos and condiciones</a>
+									</label>
+								  </div>
+								</div>
+
+								<div class="field">
+								  <div class="control">
+									<label class="radio">
+									  <input type="radio" name="question">
+									  Si
+									</label>
+									<label class="radio">
+									  <input type="radio" name="question">
+									  No
+									</label>
+								  </div>
+								</div>
+
+								<div class="field is-grouped">
+								  <div class="control">
+									<button class="button is-link">Submit</button>
+								  </div>
+								  <div class="control">
+									<button class="button is-text">Cancel</button>
+								  </div>
+								</div>
+
+								<!-- <div class="control">
+									<form action="envia.php" method="post">
+										 <h2>Contáctanos</h2>						 
+										 <label for="name">Nombre</label>
+										 <input type="text" id="name" name="nombre" required>
+										 <label for="email">Email</label>
+										 <input type="email" id="email" name="email" required>
+										 <label for="msg">Mensaje</label>
+										 <textarea id="msg" rows="10" cols="60" name="mensaje"></textarea>
+										 <input type="submit" value="Enviar" class="button green">
+									</form>
+								 </div> -->
+							</div>					  
+						<!-- fin de formulario de contacto   -->						
 						</div>
 					</div>	
 					<hr>
 					
-					<div class="content">
-						<div class="field">
-						  <label class="label">Nombre</label>
-						  <div class="control">
-							<input class="input" type="text" placeholder="Ingrese Nomre">
-						  </div>
-						</div>
-
-						<div class="field">
-						  <label class="label">Asunto</label>
-						  <div class="control has-icons-left has-icons-right">
-							<input class="input is-success" type="text" placeholder="Ingrese Asunto" value="asunto">
-							<span class="icon is-small is-left">
-							  <i class="fas fa-user"></i>
-							</span>
-							<span class="icon is-small is-right">
-							  <i class="fas fa-check"></i>
-							</span>
-						  </div>
-						  <p class="help is-success">This username is available</p>
-						</div>
-
-						<div class="field">
-						  <label class="label">Email</label>
-						  <div class="control has-icons-left has-icons-right">
-							<input class="input is-danger" type="email" placeholder="Ingrese correo" value="hello@">
-							<span class="icon is-small is-left">
-							  <i class="fas fa-envelope"></i>
-							</span>
-							<span class="icon is-small is-right">
-							  <i class="fas fa-exclamation-triangle"></i>
-							</span>
-						  </div>
-						  <p class="help is-danger">Este correo es invalido</p>
-						</div>
-
-						<div class="field">
-						  <label class="label">Subject</label>
-						  <div class="control">
-							<div class="select">
-							  <select>
-								<option>Select dropdown</option>
-								<option>With options</option>
-							  </select>
-							</div>
-						  </div>
-						</div>
-
-						<div class="field">
-						  <label class="label">Mensaje</label>
-						  <div class="control">
-							<textarea class="textarea" placeholder="Ingrese Mensaje"></textarea>
-						  </div>
-						</div>
-
-						<div class="field">
-						  <div class="control">
-							<label class="checkbox">
-							  <input type="checkbox">
-							  I agree to the <a href="#">terms and conditions</a>
-							</label>
-						  </div>
-						</div>
-
-						<div class="field">
-						  <div class="control">
-							<label class="radio">
-							  <input type="radio" name="question">
-							  Si
-							</label>
-							<label class="radio">
-							  <input type="radio" name="question">
-							  No
-							</label>
-						  </div>
-						</div>
-
-						<div class="field is-grouped">
-						  <div class="control">
-							<button class="button is-link">Submit</button>
-						  </div>
-						  <div class="control">
-							<button class="button is-text">Cancel</button>
-						  </div>
-						</div>
-
-						<!-- <div class="control">
-							<form action="envia.php" method="post">
-								 <h2>Contáctanos</h2>						 
-								 <label for="name">Nombre</label>
-								 <input type="text" id="name" name="nombre" required>
-								 <label for="email">Email</label>
-								 <input type="email" id="email" name="email" required>
-								 <label for="msg">Mensaje</label>
-								 <textarea id="msg" rows="10" cols="60" name="mensaje"></textarea>
-								 <input type="submit" value="Enviar" class="button green">
-							</form>
-						 </div> -->
-					</div>
+					
                 </div>
              </div>
     </section>
@@ -475,6 +452,6 @@
 	<!-- <script async type="text/javascript" src="js/bulma.js"></script> -->
 	<!-- <script src="js/bulma.js"></script> -->
     <script src="js/tabs.js"></script>
-    <script src="js/bulma.js"></script>
+	<script src="js/bulma.js"></script>
 </body>
 </html>
