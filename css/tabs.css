@@ -26,21 +26,21 @@ margin-bottom: -1px !important;
 position: relative;
 }
 .tab-content {
-padding: 60px;
-top: 197px;
+padding: 25px;
+top: 200px;
 color: #000;
 background-color: white;
 }
 .tab-pane {
 display: none;
-width: 70%;
+width: 85%;
 position: relative;
 left: 50%;
 transform: translateX(-50%);
 }
 .tab-pane.is-active {
 display: block;
-width: 70%;
+width: 85%;
 position: relative;
 left: 50%;
 transform: translateX(-50%);
