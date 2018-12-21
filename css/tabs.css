@@ -4,7 +4,7 @@ html,body {
   background: #F0F2F4;
 } 
 .navbar.is-info {/*menu de arriba con combo*/
-  background: #2E9AFE;
+  background: #429dca;
 }
 /* .navbar-brand .brand-text {
   font-size: 1.11rem;
@@ -14,12 +14,12 @@ html,body {
 /* background: #2E9AFE; */
 background-image: url("../images/barra.png");
 background-position: center;
-background-size: cover;
+background-size: 100% 100%; /* horizontal vertical, cover/auto/ */
 background-repeat: no-repeat;
-height: 150px;
+height: 280px;
 }
 .hero.is-info {/*menu donde estan los tabs*/
-  background: #2E9AFE;
+  background: #429dca;
 }
 .tabs {
 margin-bottom: -1px !important;
